@@ -53,7 +53,7 @@ console.log("l'eta' che hai scelto e' " + userAge);
 if (userAge < 18) {
     prezzo = (prezzo - prezzo * 0.2).toFixed(2);
     console.log('lo sconto applicato e ' + prezzo);
-} else (userAge >= 65); {
+} else if (userAge >= 65) {
     prezzo = (prezzo - prezzo * 0.4).toFixed(2);
 }
 
